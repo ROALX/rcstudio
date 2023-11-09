@@ -1,0 +1,455 @@
+
+a {
+    text-decoration: none;
+}
+
+.link-without-underline {
+    text-decoration: none;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.rectangle-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #3b3b3b;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.rectangle-container .green-button {
+    background-color: #9fc043;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 30px;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    top: 110px;
+}
+
+.rectangle-container:not(:hover) .green-button {
+    background-color: #808080;
+}
+
+.image-section {
+    flex: 3;
+    overflow: hidden;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.text-section {
+    flex: 2;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+
+.rectangle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.channel-container {
+    text-align: center; 
+}
+
+.channel-item {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #3b3b3b;
+    border: 1px solid #3b3b3b;
+    border-radius: 5px;
+}
+
+.channel-item-content {
+    padding: 10px;
+}
+
+.channel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.channel-item-text {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff ;
+}
+
+
+.channel-list {
+    display: inline-block; 
+    list-style: none; 
+    padding: 0; 
+}
+
+
+.channel-item {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+/*旗下頻道尾*/
+
+
+
+.header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .social {
+    background-color: #ffffff; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 10px; 
+  }
+  
+  .social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social ul li {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+  
+  .social ul li:last-child {
+    margin-right: 0; 
+  }
+  
+
+  
+  .social a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 16px; 
+  }
+  
+
+  .social a:hover {
+    color: #007bff;
+  }
+  
+
+  .lg-wrap {
+    display: none;
+  }
+  
+.news-container {
+    text-align: center;
+}
+
+.rectangle-container {
+    display: none;
+}
+
+.rectangle-container.active {
+    display: inline-block;
+}
+
+.carousel-dots {
+    text-align: center;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #007bff;
+}
+
+.dot.active:hover {
+    background-color: green;
+}
+
+.custom-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-right {
+    text-align: right;
+    font-size: 14px;
+}
+
+.footer-right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    flex: 1;
+    padding-left: 400px; 
+}
+
+.contact-info h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 5px;
+}
+
+.contact-info ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: #333; 
+    color: #fff; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 5cm; 
+}
+
+.logo img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
+    margin-bottom: -5px;
+}
+
+.company-name {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -50px; 
+    margin-bottom: 10px; 
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.nav-links {
+    text-align: center;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .navigation li {
+        margin: 10px 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
+
+    .header {
+        position: relative;
+        text-align: center;
+    }
+
+    .lg-wrap {
+        display: block;
+    }
+
+    .banner {
+        padding: 10px;
+    }
+
+    .company-name {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .rectangle-container {
+        width: 100%;
+    }
+
+    .text-section {
+        text-align: center;
+    }
+
+    .footer-left {
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-info {
+        padding-left: 0;
+    }
+}
+
+/* 按钮容器样式，用于居中按钮并向下移动 */
+.button-container {
+    text-align: center; /* 水平居中 */
+    padding-top: 20px; /* 添加顶部内边距，控制向下移动的距离 */
+}
+
+
+/* 添加按钮样式 */
+#view-more-button {
+    background-color: #007bff; /* 淡蓝色背景 */
+    border: 2px solid #007bff; /* 淡蓝色边框 */
+    color: #ffffff; /* 白色文字 */
+    padding: 10px 20px; /* 按钮内边距 */
+    font-size: 16px; /* 字体大小 */
+    cursor: pointer; /* 鼠标样式为手型 */
+    border-radius: 5px; /* 圆角边框 */
+    transition: background-color 0.3s, color 0.3s; /* 添加过渡效果 */
+}
+
+    /* 按钮悬停时的样式 */
+    #view-more-button:hover {
+        background-color: #ffffff;
+        /* 白色背景 */
+        color: #007bff;
+        /* 淡蓝色文字 */
+    }
+
+
+
+    a {
+        text-decoration: none;
+    }
+
+    /* 更改链接文本的颜色 */
+    a {
+        color: #ffffff; /* 可以根据您的设计选择颜色 */
+    }
+
+    /* 修复 RC Studio 文字的垂直位置 */
+    .company-name {
+        vertical-align: middle;
+    }
+
+    .rectangle-container {
+        /* 添加一些間距和邊框 */
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        display: inline-block;
+        /* 讓它們水平排列 */
+        vertical-align: top;
+        /* 使它們頂部對齊 */
+        text-align: center;
+        /* 文本居中對齊 */
+        margin: 5px;
+        /* 添加外邊距，可以根據需要調整間距大小 */
+    }
+
+    @media screen and (max-width: 600px) {
+        .news-group {
+            display: none;
+        }
+        .news-group:first-child {
+            display: block;
+        }
+    }

@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #222; /* 使用深色背景增加科技感 */
+    color: #fff; /* 设置文本颜色为白色 */
+}
+
+h1 {
+    text-align: center;
+    color: #44f; /* 使用鲜艳的蓝色标题 */
+    font-size: 36px; /* 增大标题字号 */
+    margin-top: 0; /* 去除标题顶部间距 */
+}
+
+hr {
+    border: 1px solid #44f; /* 使用蓝色边框线 */
+    margin: 20px 0;
+}
+
+div {
+    background-color: #111; /* 使用深色容器背景 */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(68, 68, 255, 0.4); /* 使用蓝色阴影 */
+}
+
+h2 {
+    font-size: 28px; /* 减小副标题字号 */
+    color: #44f;
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 320px;
+    height: 180px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+
+p {
+    color: #aaa; /* 灰色文本 */
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* 添加一些动画效果 */
+div:hover {
+    transform: scale(1.02); /* 鼠标悬停时放大容器 */
+    transition: transform 0.3s ease; /* 添加平滑过渡效果 */
+}
